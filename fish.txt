@@ -1,0 +1,23 @@
+Fish Simulation
+
+Goal: Create fish on screen who move randomly, eat smaller fish, and avoid bigger fish.
+
+Needs:
+	Fish class
+		fish are different sizes
+		fish have positions on screen (x,y)
+		
+		
+		fish are able to move
+			incremental moving by adding move to their position
+
+		
+		fish detect other fish in area around them
+
+			detecetd small fish
+				move towards small fish
+					gobble it up (remove it from list)
+						increase fish stats
+
+			detected bigger fish
+				move away from big fish
